@@ -1,7 +1,7 @@
-# zwvalidator
+# ZW Common Validator
 A small library to validate common Zimbabwean identification numbers and mobile numbers
 
-###Available validations
+### Available validations
 
 1. `CommonValidator.isValidId(String idNumber)` - Checks if identification number is valid
 2. `CommonValidator.isValidPassportNumber(String passportNumber)` - Checks if passport number is valid. Example of a valid Zimbabwean passport number format is AA00000
