@@ -1,4 +1,4 @@
-package com.validatorzw.util;
+package com.github.zwvalidator;
 
 public class ZWValidator {
     public static boolean isValidId(String nationalId){

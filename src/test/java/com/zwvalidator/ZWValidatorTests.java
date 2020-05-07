@@ -1,6 +1,6 @@
 package com.zwvalidator;
 
-import com.validatorzw.util.ZWValidator;
+import com.github.zwvalidator.ZWValidator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
