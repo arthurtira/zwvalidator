@@ -4,9 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zwvalidator</groupId>
-    <artifactId>validator-zw</artifactId>
+    <groupId>com.github.arthurtira</groupId>
+    <artifactId>zwvalidator</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/arthurtira/zwvalidator</url>
+    <description>A library to validate common Zimbabwean identification numbers and mobile numbers</description>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Arthur Tira</name>
+            <email>tiraarthur@gmail.com</email>
+            <organization>Arthur Tira</organization>
+            <organizationUrl>https://github.com/arthurtira</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/arthurtira/zwvalidator.git</connection>
+        <developerConnection>scm:git:ssh://github.com:arthurtira/zwvalidator.git</developerConnection>
+        <url>http://github.com/arthurtira/zwvalidator/tree/master</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
