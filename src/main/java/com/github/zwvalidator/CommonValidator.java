@@ -1,36 +1,38 @@
 package com.github.zwvalidator;
 
+import com.github.zwvalidator.util.RegexConstants;
+
 public class CommonValidator {
     public static boolean isValidId(String nationalId){
         if(nationalId == null || nationalId == "")
             return false;
-        return nationalId.matches("[0-9]{2}(-| )*[0-9]{6,7}( )*[a-zA-Z]( )*[0-9]{2}");
+        return nationalId.matches(RegexConstants.ID_NUMBER_REGEX);
     }
 
     public static boolean isValidPassportNumber(String passportNumber) {
         if(passportNumber == null || passportNumber == "")
             return false;
-        return passportNumber.matches("[a-zA-Z]{2}[0-9]{6}");
+        return passportNumber.matches(RegexConstants.PASSPORT_NUMBER_REGEX);
     }
 
     public static boolean isValidMobileNumber(String phoneNumber) {
         if(phoneNumber == null || phoneNumber == "")
             return false;
-        return phoneNumber.matches("(((\\+)*263)|0)7(7|8)[0-9]{7}") ||
-                phoneNumber.matches("(((\\+)*263)|0)71[0-9]{7}") ||
-                phoneNumber.matches("(((\\+)*263)|0)73[0-9]{7}");
+        return phoneNumber.matches(RegexConstants.ECONET_NUMBER_REGEX) ||
+                phoneNumber.matches(RegexConstants.NETONE_NUMBER_REGEX) ||
+                phoneNumber.matches(RegexConstants.TELECEL_NUMBER_REGEX);
     }
 
     public static boolean isValidDriverLicence(String driverLicence) {
         if(driverLicence == null || driverLicence == "")
             return false;
-        return driverLicence.matches("[0-9]{5}[a-zA-Z]{2}");
+        return driverLicence.matches(RegexConstants.DRIVER_LICENCE_REGEX);
     }
 
     public static boolean isValidNumberPlate(String numberPlate) {
         if(numberPlate == null || numberPlate == "")
             return false;
-        return numberPlate.matches("[a-zA-Z]{3}(-| )*[0-9]{4}");
+        return numberPlate.matches(RegexConstants.NUMBER_PLATE_REGEX);
     }
 
 }

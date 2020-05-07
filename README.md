@@ -1,6 +1,18 @@
 # ZW Common Validator
 A small library to validate common Zimbabwean identification numbers and mobile numbers
 
+## How to use it 
+ #### If you are using Maven for your project just put the following dependency in your pom.xml file: 
+ 
+ `<dependency>
+    <groupId>com.github.arthurtira</groupId>
+    <artifactId>zwvalidator</artifactId>
+    <version>1.0.0</version>
+  </dependency>`
+  
+  All the validation methods are static methods, so you can import them as shown below:
+  `import static com.github.zwvalidator.CommonValidator.isValidMobileNumber;`
+  
 ### Available validations
 
 1. `CommonValidator.isValidId(String idNumber)` - Checks if identification number is valid
