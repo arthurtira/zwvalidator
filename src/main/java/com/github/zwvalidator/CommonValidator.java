@@ -1,6 +1,6 @@
 package com.github.zwvalidator;
 
-public class ZWValidator {
+public class CommonValidator {
     public static boolean isValidId(String nationalId){
         if(nationalId == null || nationalId == "")
             return false;

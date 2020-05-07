@@ -1,6 +1,6 @@
 # zwvalidator
 A small library to validate common Zimbabwean identification numbers and mobile numbers
 
-#Available validators
+###Available validations
 
-1. ZWValidator.isValidId(String idNumber) - Checks if identification number is valid
+1. CommonZwValidator.isValidId(String idNumber) - Checks if identification number is valid
