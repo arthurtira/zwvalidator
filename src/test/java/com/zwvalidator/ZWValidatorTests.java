@@ -3,6 +3,7 @@ package com.zwvalidator;
 import com.github.zwvalidator.ZWValidator;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
@@ -11,20 +12,23 @@ public class ZWValidatorTests {
     @Test
     public void testMobileNumber_whenNumberIsValid() {
         assertAll( "Mobile number is valid" ,
-                () -> assertEquals(true, ZWValidator.isValidMobileNumber("+263773182510")),
-                () -> assertEquals(true, ZWValidator.isValidMobileNumber("263773182510")),
-                () -> assertEquals(true, ZWValidator.isValidMobileNumber("0773182510")),
-                () -> assertEquals(true, ZWValidator.isValidMobileNumber("0712000111"))
+                () -> assertThat(ZWValidator.isValidMobileNumber("+263773000000")).isEqualTo(true),
+                () -> assertThat(ZWValidator.isValidMobileNumber("263773000000")).isEqualTo(true),
+                () -> assertThat(ZWValidator.isValidMobileNumber("0775000000")).isEqualTo(true),
+                () -> assertThat(ZWValidator.isValidMobileNumber("0734999999")).isEqualTo(true),
+                () -> assertThat(ZWValidator.isValidMobileNumber("0782111111")).isEqualTo(true),
+                () -> assertThat(ZWValidator.isValidMobileNumber("0712000000")).isEqualTo(true)
         );
     }
 
     @Test
     public void testMobileNumber_whenNumberIsNotValid() {
         assertAll( "Mobile number is not a valid Zimbabwean number" ,
-                () -> assertEquals(false, ZWValidator.isValidMobileNumber("773182510")),
-                () -> assertEquals(false, ZWValidator.isValidMobileNumber("0743182510")),
-                () -> assertEquals(false, ZWValidator.isValidMobileNumber("0983182510")),
-                () -> assertEquals(false, ZWValidator.isValidMobileNumber("12000111"))
+                () -> assertEquals(false, ZWValidator.isValidMobileNumber("773000000")),
+                () -> assertEquals(false, ZWValidator.isValidMobileNumber("074300000")),
+                () -> assertEquals(false, ZWValidator.isValidMobileNumber("098300000")),
+                () -> assertEquals(false, ZWValidator.isValidMobileNumber(null)),
+                () -> assertEquals(false, ZWValidator.isValidMobileNumber(""))
         );
     }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zwvalidator.ZWValidatorTests" time="0.041" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zwvalidator.ZWValidatorTests" time="0.048" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ATira\AppData\Local\Temp\surefire676365972991027324\surefirebooter813801151603210599.jar C:\Users\ATira\AppData\Local\Temp\surefire676365972991027324 2020-05-07T12-43-19_801-jvmRun1 surefire3212532033483134213tmp surefire_05543618930359646216tmp"/>
+    <property name="sun.java.command" value="C:\Users\ATira\AppData\Local\Temp\surefire212910822629582679\surefirebooter7371521628227265682.jar C:\Users\ATira\AppData\Local\Temp\surefire212910822629582679 2020-05-07T15-50-37_366-jvmRun1 surefire4176124887802172995tmp surefire_06065307849121759064tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ATira\Documents\Personal\validator-zw\target\test-classes;C:\Users\ATira\Documents\Personal\validator-zw\target\classes;C:\Users\ATira\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\ATira\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ATira\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\ATira\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ATira\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\ATira\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\ATira\.m2\repository\org\junit\platform\junit-platform-runner\1.5.2\junit-platform-runner-1.5.2.jar;C:\Users\ATira\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ATira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ATira\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\ATira\.m2\repository\org\junit\platform\junit-platform-suite-api\1.5.2\junit-platform-suite-api-1.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ATira"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ATira\AppData\Local\Temp\surefire676365972991027324\surefirebooter813801151603210599.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ATira\AppData\Local\Temp\surefire212910822629582679\surefirebooter7371521628227265682.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Git\cmd;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\ATira\AppData\Local\Microsoft\WindowsApps;C:\Users\ATira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Amazon\ECSCLI;C:\Users\ATira\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Git\cmd;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\ATira\AppData\Local\Microsoft\WindowsApps;C:\Users\ATira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Amazon\ECSCLI;C:\Users\ATira\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.241-b07"/>
@@ -60,14 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testPassportNumber_whenNumberIsNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.022"/>
-  <testcase name="testIDNumber_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
+  <testcase name="testPassportNumber_whenNumberIsNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.025"/>
+  <testcase name="testIDNumber_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0"/>
   <testcase name="testNumberPlate_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
   <testcase name="testMobileNumber_whenNumberIsValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
-  <testcase name="testMobileNumber_whenNumberIsNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
+  <testcase name="testMobileNumber_whenNumberIsNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.002"/>
   <testcase name="testDriverLicenceNumber_whenNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
   <testcase name="testIDNumber_whenNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
   <testcase name="testNumberPlate_whenNotValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
   <testcase name="testPassportNumber_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
-  <testcase name="testDriverLicenceNumber_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0.001"/>
+  <testcase name="testDriverLicenceNumber_whenValid" classname="com.zwvalidator.ZWValidatorTests" time="0"/>
 </testsuite>
